@@ -4,3 +4,5 @@ export const getCoffee = (name = "Latte") => {
     name,
   };
 };
+
+export const getCoffeeloverText = () => "I like coffee!";

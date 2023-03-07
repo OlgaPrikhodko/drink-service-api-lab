@@ -51,3 +51,25 @@
     "drinkType": "Coffee",
     "name": "mocha"
   }`
+
+#### Request with parameter
+
+`GET /tea/?teaName=Black`
+
+#### Response
+
+`{
+    "drinkType": "Tea",
+    "name": "Black"
+  }`
+
+#### Request with parameter
+
+`GET /tea`
+
+#### Response
+
+`{
+    "drinkType": "Tea",
+    "name": "Green"
+  }`
